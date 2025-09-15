@@ -19,9 +19,6 @@ h1 {
   margin: auto;
   background-color: antiquewhite;
   border: solid 2px #212427;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
 }
 
 .filho {
@@ -33,14 +30,12 @@ h1 {
 
 .cor1 {
   order: 1;
-  align-self: flex-start;
   background-color: #ed145b;
 }
 
 .cor2 {
   order: 3;
   align-self: flex-end;
-  justify-self: flex-end;
   background-color: #63b1bc;
 }
 
@@ -70,8 +65,6 @@ img {
 
 .container {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 250px;
   height: 350px;
 }
