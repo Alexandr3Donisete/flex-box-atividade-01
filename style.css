@@ -42,11 +42,13 @@ h1 {
 .cor2 {
   order: 3;
   align-self: flex-end;
+  justify-self: flex-end;
   background-color: #63b1bc;
 }
 
 .cor3 {
   order: 2;
+  align-self: center;
   background-color: #efb661;
 }
 
@@ -66,4 +68,13 @@ h1 {
 
 img {
   width: 20%;
+}
+
+.container {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 350px;
 }
